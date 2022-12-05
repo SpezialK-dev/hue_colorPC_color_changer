@@ -1,0 +1,2 @@
+#should ignore everything in packet captures
+packet_captures/
