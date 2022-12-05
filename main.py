@@ -1,13 +1,15 @@
-import connection as con
+import networking.connection as con
 import sys
 
 confac = con
 
 def __main__():
     print("Welcome")
-    if(sys.argv[1] != 0):
-        con.send_command_test(sys.argv[1])
-    else:
-        print("awaiting input")
+    #takes an argument and puts it into the connection class
+    try:
+        con.send_command(sys.argv[1], sys.argv[2])
+        
+    except:
+        print("you didnt pass enought arguments!!")
 
 __main__()
