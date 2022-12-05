@@ -7,3 +7,4 @@ the open ports on a normal philips hue bridge are
 | 80/tcp |open | http | 
 | 443/tcp |open | https |
 | 8080/tcp |open | http-proxy |
+| ---- | ---- | ---- | 
