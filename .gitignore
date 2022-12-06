@@ -1,2 +1,4 @@
 #should ignore everything in packet captures
 packet_captures/
+__pycache__/
+networking/__pycache__/connection.cpython-310.pyc
