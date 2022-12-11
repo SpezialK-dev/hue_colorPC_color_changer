@@ -1,5 +1,5 @@
 #should ignore everything in packet captures
 packet_captures/
-__pycache__/
-networking/__pycache__/connection.cpython-310.pyc
 Docs/2022-12-10_12-40nmap_scan.png
+networking/__pycache__/*
+networking/__pycache__/connection.cpython-310.pyc#

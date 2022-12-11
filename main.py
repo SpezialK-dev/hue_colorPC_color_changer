@@ -1,15 +1,14 @@
-import networking.connection as con
+import networking.networkHeaderParser as parser
 import sys
 
-confac = con
 
 def __main__():
     print("Welcome")
     #takes an argument and puts it into the connection class
     try:
-        #print(con.send_command_api(sys.argv[1], sys.argv[2]))
-        http_response_80 = con.getHeaders(sys.argv[1], "80")
-        print(http_response_80.headers)
+        parser.server_info(sys.argv[1])
+
+        
     except:
         print("Something went wrong")
 

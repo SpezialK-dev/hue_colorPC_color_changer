@@ -27,5 +27,4 @@ def http_port_test(ip_address, tcp_port, msg):
     
 def getHeaders(ip_address, tcp_port):
     address = "http://"+ip_address.replace(" ", "")+ ":" + tcp_port
-    print(address)
     return requests.head(address, data ={'key': 'value'})
