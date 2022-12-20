@@ -14,6 +14,11 @@ http://<YOUR HUB IP>/debug/clip.html this is where you can use the API debugger
 - large parts of the software are outdated
 
 
-## resources used 
+## Further Ressources  
 - https://austenclement.com/getting-started-with-the-philips-hue-rest-api/
 - https://developers.meethue.com/new-hue-api/
+
+
+### Hardware hacking the bridge
+- http://colinoflynn.com/wp-content/uploads/2016/08/us-16-OFlynn-A-Lightbulb-Worm-wp.pdf
+- http://colinoflynn.com/2016/08/philips-hue-r-e-whitepaper-from-black-hat-2016/
