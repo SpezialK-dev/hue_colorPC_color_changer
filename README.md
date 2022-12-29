@@ -12,6 +12,7 @@ http://<YOUR HUB IP>/debug/clip.html this is where you can use the API debugger
 - The webserver being used is nginx
 - its being run on a linux server
 - large parts of the software are outdated
+- the last software update should be around late 2019 - early 2020
 
 
 ## Further Ressources  
