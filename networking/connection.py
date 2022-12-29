@@ -1,5 +1,6 @@
 import requests
 import socket
+import json
 
 # this class is here for handling all of the request to the actual bridge
 
@@ -28,3 +29,12 @@ def http_port_test(ip_address, tcp_port, msg):
 def getHeaders(ip_address, tcp_port):
     address = "http://"+ip_address.replace(" ", "")+ ":" + tcp_port
     return requests.head(address, data ={'key': 'value'})
+
+def get_Servers():
+    print("finding servers in your Network.")
+    response = requests.get("https://discovery.meethue.com/")
+    #print("response: ", response.json())
+
+    #TODO return the ip address from this 
+    
+    print(response.json())
